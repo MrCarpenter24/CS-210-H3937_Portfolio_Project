@@ -161,7 +161,7 @@ int main(){
 				Sleep(2000);
 				break;
 			default:
-				cout << "Input error. Try using 1 through 4 as input." << endl;
+				cout << "Input error. Try using 1 through 7 as input." << endl;
 				Sleep(3000);
 				break;
 				}
