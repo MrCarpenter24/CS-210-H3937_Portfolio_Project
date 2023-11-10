@@ -47,8 +47,8 @@ void displayMenu(){ //Displays formatted text menu
 	cout << "Enter selection: ";
 }
 void displayClock(){ //Pulls time from system**
-					//********The following code is borrowed, mostly verbatim, for the clock, from this site:
-					//  https://www.codespeedy.com/digital-clock-in-cpp/
+	//********The following code is borrowed, mostly verbatim, for the clock, from this site:
+	//  https://www.codespeedy.com/digital-clock-in-cpp/
 
 	//getting values of seconds, minutes, and hours
 	struct tm* ct = localtime(&total_seconds);
